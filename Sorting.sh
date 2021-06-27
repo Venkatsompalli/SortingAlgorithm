@@ -16,3 +16,5 @@ Dictionary[B]=$B
 Dictionary[C]=$C
 Dictionary[D]=$D
 
+Array=${Dictionary[@]}
+echo $Array
