@@ -5,4 +5,4 @@ read -p "Enter the second number" b
 read -p "Enter the third number" c
 
 A=$((a+b*c));
-echo $A
+B=$((a*b+c));
