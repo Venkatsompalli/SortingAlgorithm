@@ -8,3 +8,11 @@ A=$((a+b*c));
 B=$((a*b+c));
 C=$((c+a/b));
 D=$((a%b+c));
+
+declare -A Dictionary
+
+Dictionary[A]=$A
+Dictionary[B]=$B
+Dictionary[C]=$C
+Dictionary[D]=$D
+
